@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 20;
+    float marks = 85.5;
+    char grade = 'A';
+    bool pass = true;
+
+    cout << "Integer: " << age << endl;
+    cout << "Float: " << marks << endl;
+    cout << "Character: " << grade << endl;
+    cout << "Boolean: " << pass;
+
+    return 0;
+}
