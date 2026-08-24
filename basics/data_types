@@ -1,0 +1,19 @@
+//data types
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int age=20;
+  float marks=90.2;
+  char grade='A+';
+  bool pass=True;
+
+  cout << "Integer::" <<age <<endl;
+  cout << "Float::" <<marks <<endl;
+  cout << "Character::" <<grade <<endl;
+  cout << "Boolean::" <<pass;
+
+  return 0;
+}
