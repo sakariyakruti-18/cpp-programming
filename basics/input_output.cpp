@@ -1,13 +1,15 @@
-//input-output prog
+//input output program
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main()
-{
-  int age;
-  cout<<"Enter your age::" <<age <<endl;
-  cout<<"Your age is:" age;
+int main() {
+    int age;
 
-  return 0;
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "Your age is: " << age;
+
+    return 0;
 }
