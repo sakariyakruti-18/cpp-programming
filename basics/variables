@@ -1,4 +1,17 @@
 //3. variables 
 
 #include<iostream>
-using namespace
+using namespace std;
+
+int main()
+{
+  int age=18;
+  float marks=85.5;
+  char grade='A';
+
+  cout <<"Age is::" <<age <<endl;
+  cout <<"Marks::" <<marks <<endl;
+  cout <<"Grade::" << grade;
+
+return 0;
+}
