@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "Enter a number: ";
+    cin >> num;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << num << " x " << i << " = " << num * i << endl;
+    }
+
+    return 0;
+}
+
+/*Enter a number: 500
+500 x 1 = 500
+500 x 2 = 1000
+500 x 3 = 1500
+500 x 4 = 2000
+500 x 5 = 2500
+500 x 6 = 3000
+500 x 7 = 3500
+500 x 8 = 4000
+500 x 9 = 4500
+500 x 10 = 5000*/
